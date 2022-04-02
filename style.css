@@ -25,6 +25,11 @@ ul {
     list-style: none;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .container {
     width: 90%;
     max-width: 1100px;
@@ -86,7 +91,7 @@ main {
 /* hero */
 .hero {
     width: 100%;
-    height: 75vh;
+    height: 95vh;
     background-image: url('https://cdn.pixabay.com/photo/2018/05/13/06/58/cake-3395540_960_720.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,7 +99,7 @@ main {
 }
 
 .hero-container {
-    height: 75vh;
+    height: 95vh;
     display: flex;
     align-items: center;
 }
@@ -118,7 +123,64 @@ main {
     color: #1f2937;
 }
 
+/* Products */
+.products {
+    width: 100%;
+    padding: 48px 0;
+}
 
+.products-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.title-section {
+    font-size: 32px;
+    color: #1f2937;
+}
+
+.information {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.info-img {
+    width: 100%;
+    min-height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-1 {
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/29/11/38/cake-1869227_960_720.jpg');
+}
+
+.img-2 {
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/22/23/35/birthday-1851191_960_720.jpg');
+}
+
+.img-3 {
+    background-image: url('https://cdn.pixabay.com/photo/2017/04/22/00/53/cupcakes-2250367_960_720.jpg');
+}
+
+.img-4 {
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/27/22/12/cake-1776661_960_720.jpg');
+}
 /* FOOTER */
 
 .footer {
