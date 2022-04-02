@@ -14,7 +14,7 @@
     />
   </head>
   <body>
-      <header class="header">
+      <header class="header" id="header">
           <div class="container">
               <div class="header-container">
                   <div class="logo">
@@ -23,17 +23,17 @@
                       </a>
                   </div>
                   <ul class="menu">
-                      <li><a href="#" class="menu-link">Inicio</a></li>
-                      <li><a href="#" class="menu-link">Productos</a></li>
-                      <li><a href="#" class="menu-link">Testimonios</a></li>
-                      <li><a href="#" class="menu-link">Contacto</a></li>
+                      <li><a href="#hero" class="menu-link">Inicio</a></li>
+                      <li><a href="#products" class="menu-link">Productos</a></li>
+                      <li><a href="#testimonials" class="menu-link">Testimonios</a></li>
+                      <li><a href="#contact" class="menu-link">Contacto</a></li>
                   </ul>
               </div>
           </div>
       </header>
 
       <main>
-          <section class="hero">
+          <section class="hero" id="hero">
               <div class="container">
                   <div class="hero-container">
                       <div class="hero-content">
@@ -53,7 +53,7 @@
               </div>
           </section>
 
-          <section class="products">
+          <section class="products" id="products">
               <div class="container">
                     <div class="products-container">
                         <div class="title-section">
@@ -81,7 +81,7 @@
               </div>
           </section>
 
-          <div class="testimonials">
+          <section class="testimonials" id="testimonials">
               <div class="container">
                   <div class="testimonials-container">
                       <div class="testimonials-content">
@@ -97,11 +97,30 @@
                       </div>
                   </div>
               </div>
-          </div>
+          </section>
+
+          <section class="contact" id="contact">
+              <div class="container">
+                  <div class="contact-container">
+                    <div class="title-section">
+                        <h2>Contacto</h2>
+                    </div>
+                      <div class="contact-content">
+                          <div class="contact-text">
+                              <h3>¡Hablame, hace tu pedido!</h3>
+                              <p>Desde de aqui contactame por whatsapp y con gusto te preparamos algo rico para vos.</p>
+                          </div>
+                          <div class="cta">
+                            <button class="btn btn-contact">¡Quiero una torta!</button>
+                        </div>
+
+                      </div>
+                  </div>
+              </div>
+          </section>
 
       </main>
-      <!-- Estupendo obrador. Todo lo que hacen está exquisito
-Todos los productos están muy buenos, muy bien hechos. Y la atención es muy buena, son encantadores. -->
+      
       <footer class="footer">
           <p>Copyright &copy; The Odin Project 2022</p>
       </footer>
