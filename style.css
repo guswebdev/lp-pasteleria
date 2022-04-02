@@ -126,7 +126,7 @@ main {
 /* Products */
 .products {
     width: 100%;
-    padding: 48px 0;
+    padding: 64px 0;
 }
 
 .products-container {
@@ -140,6 +140,7 @@ main {
 .title-section {
     font-size: 32px;
     color: #1f2937;
+    text-align: center;
 }
 
 .information {
@@ -181,6 +182,48 @@ main {
 .img-4 {
     background-image: url('https://cdn.pixabay.com/photo/2016/10/27/22/12/cake-1776661_960_720.jpg');
 }
+
+/* Testimonials */
+
+.testimonials {
+    padding: 64px 0;
+    background-color: #e5e7eb;
+}
+
+.testimonials-container {
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-text {
+    /*max-width: 50%;*/
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.review-author{
+    align-self: flex-end;
+    color: #1f2937;
+    font-weight: bold;
+}
+
 /* FOOTER */
 
 .footer {
