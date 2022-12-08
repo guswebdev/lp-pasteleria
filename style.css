@@ -59,6 +59,7 @@ img {
     z-index: 999;
     width: 100%;
     background-color: palevioletred;
+    display: none;/* ---- QUITAR DESPUES ---- */
 }
 
 /* -- INICIO Menu superior -- */
@@ -157,39 +158,50 @@ main {
 }
 
 /* hero */
+
+/* -- INICIO Hero -- */
 .hero {
     width: 100%;
-    height: 95vh;
+    /*min-height: calc(100vh - 223px);*/
+    min-height: 100vh;
     background-image: url('https://cdn.pixabay.com/photo/2018/05/13/06/58/cake-3395540_960_720.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
 }
-
 .hero-container {
-    height: 95vh;
-    display: flex;
-    align-items: center;
+    background-color: #2222229c;
+    
 }
+
+.hero .container {
+    padding-bottom: 32px;
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 
 .hero-content {
-    max-width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 24px;
+    color: white;
 }
 
-.title {
-    font-size: 44px;
-    color: #1f2937;
+.hero-title {
+    font-size: 2rem;
 }
 
-.description {
-    max-width: 80%;
-    font-size: 20px;
-    line-height: 2;
-    color: #1f2937;
+.hero-description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: white;
 }
+
+/* -- FIN Hero -- */
 
 /* Products */
 .products {
@@ -347,8 +359,17 @@ main {
 
 
 @media screen and (min-width:768px){
+
+    .header{
+        display: block;
+    }
     /* -- INICIO Menu superior -- */
 
+
+    .hero {
+        margin-top: -225px;
+        background-position: right top;
+    }
 
 .menu-top > .container {
     flex-direction: row;
