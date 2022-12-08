@@ -66,18 +66,41 @@ img {
 .menu-top {
     background-color: #222;
     color: white;
-    padding: 16px 0;
 }
-
+/*
 div[class^="menu-top-"]{
     border: thin solid white;
 }
-
+*/
 .menu-top > .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    text-align: center;
     gap: 8px;    
+}
+
+.telefono,
+.email, 
+.redes {
+    color: white;
+}
+
+.telefono:hover,
+.email:hover {
+    text-decoration: underline;
+    color: palevioletred;
+}
+
+.menu-top-redes {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    font-size: 2rem;
+}
+
+.redes:hover {
+    color: palevioletred;
 }
 
 
@@ -305,7 +328,9 @@ main {
 
 
 .menu-top > .container {
-    flex-direction: row;   
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
