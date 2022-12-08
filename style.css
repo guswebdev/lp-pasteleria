@@ -59,11 +59,32 @@ img {
     z-index: 999;
     width: 100%;
     background-color: palevioletred;
+}
+
+/* -- INICIO Menu superior -- */
+
+.menu-top {
+    background-color: #222;
+    color: white;
     padding: 16px 0;
 }
 
+div[class^="menu-top-"]{
+    border: thin solid white;
+}
+
+.menu-top > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;    
+}
+
+
+/* -- FIN Menu superior -- */
 .header-container {
     width: 100%;
+    padding: 16px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -276,4 +297,17 @@ main {
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+
+@media screen and (min-width:768px){
+    /* -- INICIO Menu superior -- */
+
+
+.menu-top > .container {
+    flex-direction: row;   
+}
+
+
+/* -- FIN Menu superior -- */
 }
