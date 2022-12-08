@@ -59,11 +59,17 @@ img {
     z-index: 999;
     width: 100%;
     background-color: palevioletred;
+}
+
+.menu-top {
+    background-color: #222;
+    color: white;
     padding: 16px 0;
 }
 
 .header-container {
     width: 100%;
+    padding: 16px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
