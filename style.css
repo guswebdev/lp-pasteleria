@@ -203,6 +203,8 @@ main {
 /* -- FIN Hero -- */
 
 /* Products */
+
+/* -- INICIO PRODUCTOS -- */
 .products {
   width: 100%;
   padding: 64px 0;
@@ -225,6 +227,7 @@ main {
 .information {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   gap: 32px;
@@ -264,8 +267,18 @@ main {
 }
 
 .img-4 {
-  background-image: url("https://cdn.pixabay.com/photo/2016/10/27/22/12/cake-1776661_960_720.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2020/06/30/11/49/cake-5356129_960_720.jpg");
 }
+
+.img-5 {
+  background-image: url("https://cdn.pixabay.com/photo/2014/02/28/11/07/black-forest-cake-276804_960_720.jpg");
+}
+
+.img-6 {
+  background-image: url("https://cdn.pixabay.com/photo/2020/07/05/17/16/wedding-cake-5373757_960_720.jpg");
+}
+
+/* -- FIN PRODUCTOS -- */
 
 /* Testimonials */
 
@@ -407,10 +420,34 @@ main {
     color: #222;
   }
   /* -- FIN Menu principal -- */
+
+  /* -- INICIO Productos-- */
+
+  .products {
+    scroll-margin-top: 200px;
+  }
+
+  .information {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .info {
+    flex-basis: 45%;
+  }
+
+  .info-img {
+    min-height: 300px;
+  }
+  /* -- FIN Productos-- */
 }
 
 @media screen and (min-width: 1024px) {
   .hero .container {
     align-items: center;
+  }
+
+  .info {
+    flex-basis: 30%;
   }
 }
