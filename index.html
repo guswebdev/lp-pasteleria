@@ -12,147 +12,178 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prata&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!--Esto es un comentario -->
-      <header class="header" id="header">
-        <nav class="menu-top">
-            <div class="container">
-                <div class="menu-top-horario">
-                    <p>
-                        Lunes a Sabado de <time datetime="08:00">08:00</time> - <time datetime="21:00">21:00</time> hs
-                    </p>
-                </div>
-                <div class="menu-top-telefono">
-                    <a href="tel:+34678567876">Tel: +34678567876</a>
-                </div>
-                <div class="menu-top-email">
-                    <a href="mailto:info@pasteleria.com">Email: info@pasteleria.com</a>
-                </div>
-                <div class="menu-top-redes">
-                    <a href="facebook">
-                        <i class="fa-brands fa-square-facebook"></i>
-                    </a>
-                    <a href="instagram">
-                        <i class="fa-brands fa-square-instagram"></i>
-                    </a>
-                    <a href="pinterest">
-                        <i class="fa-brands fa-square-pinterest"></i>
-                    </a>
-                </div>
-            </div>
-        </nav>
-        <!--
+    <header class="header" id="header">
+      <nav class="menu-top">
+        <div class="container">
+          <div class="menu-top-horario">
+            <p class="horario">
+              Lun - Sab : <time datetime="08:00">08:00</time> -
+              <time datetime="21:00">21:00</time> hs
+            </p>
+          </div>
+          <div class="menu-top-telefono">
+            <a href="tel:+34678567876" class="telefono">Tel: +34678567876</a>
+          </div>
+          <div class="menu-top-email">
+            <a href="mailto:info@pasteleria.com" class="email"
+              >Email: info@pasteleria.com</a
+            >
+          </div>
+          <div class="menu-top-redes">
+            <a href="#" class="redes">
+              <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a href="#" class="redes">
+              <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="#" class="redes">
+              <i class="fa-brands fa-square-pinterest"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-container">
+        <div class="logo">
+          <a href="#">
+            <h2>
+              <span class="pre-titulo">- Pasteleria -</span>
+              <hr />
+              <span class="titulo">Dulces Creaciones</span>
+            </h2>
+          </a>
+        </div>
+        <div class="container">
+          <ul class="menu">
+            <li><a href="#hero" class="menu-link">Inicio</a></li>
+            <li><a href="#products" class="menu-link">Productos</a></li>
+            <li><a href="#testimonials" class="menu-link">Testimonios</a></li>
+            <li><a href="#contact" class="menu-link">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-container">
           <div class="container">
-            
-            <div class="header-container">
-                <div class="logo">
-                      <a href="#">
-                          <h2>Dulces Creaciones</h2>
-                      </a>
-                </div>
-                <ul class="menu">
-                      <li><a href="#hero" class="menu-link">Inicio</a></li>
-                      <li><a href="#products" class="menu-link">Productos</a></li>
-                      <li><a href="#testimonials" class="menu-link">Testimonios</a></li>
-                      <li><a href="#contact" class="menu-link">Contacto</a></li>
-                </ul>
+            <div class="hero-content">
+              <div class="title">
+                <h2 class="hero-title">
+                  Todo lo que necesitas para tu cumple o festejo esta acá.
+                </h2>
+              </div>
+              <div class="hero-description">
+                <p>
+                  Te ofrecemos productos artesanales con materia prima de
+                  primera calidad.
+                </p>
+              </div>
+              <div class="cta">
+                <button class="btn btn-cta">¡Quiero hacer un pedido!</button>
+              </div>
             </div>
-          </div>-->
-      </header>
+          </div>
+        </div>
+      </section>
 
-      <main>
-          <section class="hero" id="hero">
-              <div class="container">
-                  <div class="hero-container">
-                      <div class="hero-content">
-                          <div class="title">
-                              <h2>La mejor pasteleria de González Catán</h2>
-                          </div>
-                          <div class="description">
-                              <p>
-                                  Conocé todas las variedades de tortas que tenemos para ofrecerte.
-                              </p>
-                          </div>
-                          <div class="cta">
-                              <button class="btn btn-cta">¡Quiero una torta!</button>
-                          </div>
-                      </div>
-                  </div>
+      <section class="products" id="products">
+        <div class="container">
+          <div class="products-container">
+            <div class="title-section">
+              <h2>Nuestros Productos</h2>
+            </div>
+
+            <div class="information">
+              <div class="info">
+                <div class="info-img img-1"></div>
+                <p>CheseeCake.</p>
               </div>
-          </section>
-
-          <section class="products" id="products">
-              <div class="container">
-                    <div class="products-container">
-                        <div class="title-section">
-                            <h2>Nuestros Productos</h2>
-                        </div>
-                        <div class="information">
-                            <div class="info">
-                                <div class="info-img img-1"></div>
-                                <p>CheseeCake.</p>
-                            </div>
-                            <div class="info">
-                                <div class="info-img img-2"></div>
-                                <p>Torta de Cumpleaños.</p>
-                            </div>
-                            <div class="info">
-                                <div class="info-img img-3"></div>
-                                <p>CupCakes.</p>
-                            </div>
-                            <div class="info">
-                                <div class="info-img img-4"></div>
-                                <p>Tortas Frutales.</p>
-                            </div>
-                        </div>
-                    </div>
+              <div class="info">
+                <div class="info-img img-2"></div>
+                <p>Torta de Cumpleaños.</p>
               </div>
-          </section>
-
-          <section class="testimonials" id="testimonials">
-              <div class="container">
-                  <div class="testimonials-container">
-                      <div class="testimonials-content">
-                          <div class="title-section">
-                              <h2>Testimonios</h2>
-                          </div>
-                          <div class="review">
-                              <p class="review-text">¡Estupendo! Todo lo que hacen está exquisito. Todos los productos están muy buenos, muy bien hechos. Y la atención es muy buena, son encantadores.</p>
-                              <p class="review-author">
-                                  Priscila Rodriguez
-                              </p>
-                          </div>
-                      </div>
-                  </div>
+              <div class="info">
+                <div class="info-img img-3"></div>
+                <p>CupCakes.</p>
               </div>
-          </section>
-
-          <section class="contact" id="contact">
-              <div class="container">
-                  <div class="contact-container">
-                    <div class="title-section">
-                        <h2>Contacto</h2>
-                    </div>
-                      <div class="contact-content">
-                          <div class="contact-text">
-                              <h3>¡Hablame, hace tu pedido!</h3>
-                              <p>Desde de aqui contactame por whatsapp y con gusto te preparamos algo rico para vos.</p>
-                          </div>
-                          <div class="cta">
-                            <button class="btn btn-contact">¡Quiero una torta!</button>
-                        </div>
-
-                      </div>
-                  </div>
+              <div class="info">
+                <div class="info-img img-4"></div>
+                <p>Tortas Frutales.</p>
               </div>
-          </section>
+              <div class="info">
+                <div class="info-img img-5"></div>
+                <p>Tortas de Crema.</p>
+              </div>
+              <div class="info">
+                <div class="info-img img-6"></div>
+                <p>Tortas de Boda.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      </main>
-      
-      <footer class="footer">
-          <p>Copyright &copy; The Odin Project 2022</p>
-      </footer>
+      <section class="testimonials" id="testimonials">
+        <div class="container">
+          <div class="testimonials-container">
+            <div class="testimonials-content">
+              <div class="title-section">
+                <h2>Testimonios</h2>
+              </div>
+              <div class="review">
+                <p class="review-text">
+                  ¡Estupendo! Todo lo que hacen está exquisito. Todos los
+                  productos están muy buenos, muy bien hechos. Y la atención es
+                  muy buena, son encantadores.
+                </p>
+                <p class="review-author">Priscila Rodriguez</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact-container">
+            <div class="title-section">
+              <h2>Contacto</h2>
+            </div>
+            <div class="contact-content">
+              <div class="contact-text">
+                <h3>¡Hablame, hace tu pedido!</h3>
+                <p>
+                  Desde de aqui contactame por whatsapp y con gusto te
+                  preparamos algo rico para vos.
+                </p>
+              </div>
+              <div class="cta">
+                <button class="btn btn-contact">¡Quiero una torta!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Copyright &copy; The Odin Project 2022</p>
+    </footer>
   </body>
 </html>
